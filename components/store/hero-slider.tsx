@@ -9,7 +9,7 @@ import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react"
 const slides = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=2000&q=90",
+    image: "https://plus.unsplash.com/premium_photo-1726843669720-46319c0e2326?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MXx8ZmFzaGlvbiUyMG1vZGVsfGVufDB8MHx8fDE3ODk0OTc2MzV8MA&ixlib=rb-4.1.0&q=90&w=2000",
     title: "Designed for your everyday confidence.",
     subtitle: "Contemporary pieces designed to make every moment feel effortlessly yours.",
     cta1: { text: "Shop New Arrivals", link: "/new-arrivals" },
@@ -17,7 +17,7 @@ const slides = [
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1515347619252-1662998a44c9?w=2000&q=90",
+    image: "https://images.unsplash.com/photo-1698768645748-c62b3e5202ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8ZmFzaGlvbiUyMG1vZGVsfGVufDB8MHx8fDE3ODk0OTc2MzV8MA&ixlib=rb-4.1.0&q=90&w=2000",
     title: "The Summer Edit",
     subtitle: "Breezy fabrics, modern cuts, and effortless styling for the warmer days.",
     cta1: { text: "Explore the Edit", link: "/categories" },
@@ -25,7 +25,7 @@ const slides = [
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=2000&q=90",
+    image: "https://images.unsplash.com/photo-1724184888115-e76e42f53dcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8ZmFzaGlvbiUyMG1vZGVsfGVufDB8MHx8fDE3ODk0OTc2MzV8MA&ixlib=rb-4.1.0&q=90&w=2000",
     title: "Timeless Essentials",
     subtitle: "Build your perfect wardrobe with our premium signature pieces.",
     cta1: { text: "Shop Best Sellers", link: "/best-sellers" },

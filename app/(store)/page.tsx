@@ -54,7 +54,7 @@ export default function HomePage() {
         <div className="flex flex-col md:flex-row">
           <FadeIn direction="right" className="w-full md:w-1/2 relative h-[50vh] md:h-[70vh]">
             <Image 
-              src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=1200&q=80" 
+              src="https://images.unsplash.com/photo-1645561305502-63a9ba09ab09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8NHx8ZmFzaGlvbiUyMG1vZGVsfGVufDB8MHx8fDE3ODk0OTc2MzV8MA&ixlib=rb-4.1.0&q=80&w=1200" 
               alt="Model wearing Lavera clothing" 
               fill 
               className="object-cover" 
@@ -108,7 +108,7 @@ export default function HomePage() {
       {/* 4. Editorial Banner */}
       <section className="relative h-[60vh] min-h-[500px] w-full flex items-center justify-center">
         <Image
-          src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=2000&q=90"
+          src="https://images.unsplash.com/photo-1629935226757-6e22f6ef9ac1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8ZmFzaGlvbiUyMG1vZGVsfGVufDB8MHx8fDE3ODk0OTc2MzV8MA&ixlib=rb-4.1.0&q=90&w=2000"
           alt="Editorial fashion shoot"
           fill
           className="object-cover"
