@@ -15,10 +15,14 @@ export default function HomePage() {
   const bestSellers = products.filter(p => p.bestseller).slice(0, 4)
 
   const categories = [
-    { name: "Dresses", image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80", slug: "dresses" },
-    { name: "Tops", image: "https://images.unsplash.com/photo-1503342394128-c104d54dba01?w=800&q=80", slug: "tops" },
-    { name: "Co-ords", image: "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80", slug: "co-ords" },
-    { name: "Denim", image: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=800&q=80", slug: "denim" },
+    { name: "Dresses", image: "https://plus.unsplash.com/premium_photo-1683817138481-dcdf64a40859?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MXx8bW9kZXN0JTIwZmFzaGlvbnxlbnwwfHx8fDE3ODk0OTU5MTd8MA&ixlib=rb-4.1.0&q=80&w=800&q=80", slug: "dresses" },
+    { name: "Tops", image: "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8bW9kZXN0JTIwZmFzaGlvbnxlbnwwfHx8fDE3ODk0OTU5MTd8MA&ixlib=rb-4.1.0&q=80&w=800&q=80", slug: "tops" },
+    { name: "Shirts", image: "https://images.unsplash.com/photo-1668028554553-f83cac89ce0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8bW9kZXN0JTIwZmFzaGlvbnxlbnwwfHx8fDE3ODk0OTU5MTd8MA&ixlib=rb-4.1.0&q=80&w=800&q=80", slug: "shirts" },
+    { name: "Co-ords", image: "https://images.unsplash.com/photo-1668028563825-f3b7138db3de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8NHx8bW9kZXN0JTIwZmFzaGlvbnxlbnwwfHx8fDE3ODk0OTU5MTd8MA&ixlib=rb-4.1.0&q=80&w=800&q=80", slug: "co-ords" },
+    { name: "Denim", image: "https://plus.unsplash.com/premium_photo-1683817138638-d3d2d0626f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8NXx8bW9kZXN0JTIwZmFzaGlvbnxlbnwwfHx8fDE3ODk0OTU5MTd8MA&ixlib=rb-4.1.0&q=80&w=800&q=80", slug: "denim" },
+    { name: "Trousers", image: "https://images.unsplash.com/photo-1760083545495-b297b1690672?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8bW9kZXN0JTIwZmFzaGlvbnxlbnwwfHx8fDE3ODk0OTU5MTd8MA&ixlib=rb-4.1.0&q=80&w=800&q=80", slug: "trousers" },
+    { name: "Skirts", image: "https://images.unsplash.com/photo-1762605135012-56a59a059e60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8N3x8bW9kZXN0JTIwZmFzaGlvbnxlbnwwfHx8fDE3ODk0OTU5MTd8MA&ixlib=rb-4.1.0&q=80&w=800&q=80", slug: "skirts" },
+    { name: "Ethnic Wear", image: "https://images.unsplash.com/photo-1762376128087-bc29c6df08c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8OHx8bW9kZXN0JTIwZmFzaGlvbnxlbnwwfHx8fDE3ODk0OTU5MTd8MA&ixlib=rb-4.1.0&q=80&w=800&q=80", slug: "ethnic-wear" },
   ]
 
   return (
