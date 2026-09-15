@@ -91,6 +91,15 @@ export function ProductCard({ product: initialProduct, className }: ProductCardP
             </span>
           )}
         </div>
+        <div className="mt-1">
+          {product.stock === 0 ? (
+            <span className="text-[10px] uppercase tracking-wider font-semibold text-destructive">Out of Stock</span>
+          ) : product.stock <= 10 ? (
+            <span className="text-[10px] uppercase tracking-wider font-semibold text-orange-600">Low Stock ({product.stock} left)</span>
+          ) : (
+            <span className="text-[10px] uppercase tracking-wider font-semibold text-green-600">In Stock</span>
+          )}
+        </div>
       </div>
     </div>
   )
